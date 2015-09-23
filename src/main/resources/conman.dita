@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on Sourceforge.net. 
+	See the accompanying license.txt file for applicable licenses. -->
+<!-- (c) Copyright IBM Corp. 2007 All Rights Reserved. -->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConMan">
+	<title>ProtoMan // Concept </title>
+	<shortdesc>
+		DITA's core archetypes of information are task, reference,
+		and concept; together, they create a system wherein markup structure
+		and contents' relationships coincide.
+	</shortdesc>
+	<conbody>
+		<p>In contrast to less ordered mark-up, the Darwin Typing
+			Architecture attempts to impart cohesion on the authoring and
+			publication process. For the former, DITA provides structured
+			authoring in a standard ontology. Within DITA, different content
+			types inherit different characteristics and patterned relationships.
+			These predetermined positions in a hierarchy enable single source
+			publishing to many formats including Eclipse Help, CHM, PDF, and
+			HTML5/CSS.
+		</p>
+	</conbody>
+</concept>

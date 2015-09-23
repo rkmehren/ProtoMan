@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="ProtoMan" default="pdf" basedir=".">
+	<property name="dita.dir" location="c:\program files (x86)\dita-ot" />
+	<property name="protoman.dir" value="${basedir}${file.separator}src${file.separator}main${file.separator}resources" />
+	<target name="pdf" description="Build PDF Output">
+		<ant antfile="${dita.dir}/build.xml">
+			<property file="local.properties" />
+			<property name="args.input" value="${protoman.dir}${file.separator}conman.dita" />
+			<property name="args.gen.task.lbl" value="YES" />
+			<property name="args.rellinks" value="nofamily" />
+			<property name="output.dir" value="${basedir}${file.separator}target${file.separator}pdf" />
+			<property name="transtype" value="pdf" />
+		</ant>
+	</target>
+</project>

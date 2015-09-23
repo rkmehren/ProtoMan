@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <project name="ProtoMan" default="pdf" basedir=".">
 	<property name="dita.dir" location="c:\program files (x86)\dita-ot" />
 	<property name="protoman.dir" value="${basedir}${file.separator}src${file.separator}main${file.separator}resources" />
